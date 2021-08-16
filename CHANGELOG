@@ -272,3 +272,7 @@ v1.14.2:
     date:2021-07-10
     changes:
       -  对刻度尺NAN方法进行修复：https://github.com/hai2007/image2D/issues/67
+v1.14.3:
+    date:2021-08-16
+    changes:
+      -  修复一些小bug

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class='api-view'>
         <div>
             <component :is='page' />
         </div>
@@ -42,9 +42,10 @@
     };
 </script>
 <style>
-    div {
+    .api-view {
         &>div {
             min-height: calc(100vh - 1.5rem);
+            padding-bottom: .95rem;
         }
 
         &>nav {
@@ -53,6 +54,11 @@
             background: #f6f8f8;
             line-height: .95rem;
             height: .95rem;
+            width: 100vw;
+            z-index: 1;
+            position: fixed;
+            left: 0;
+            bottom: 0;
 
             &>ul {
                 display: inline-block;

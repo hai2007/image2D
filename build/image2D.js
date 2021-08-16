@@ -7,14 +7,14 @@
 *
 * author 你好2007
 *
-* version 1.14.2
+* version 1.14.3
 *
 * build Thu Apr 11 2019
 *
 * Copyright hai2007 < https://hai2007.gitee.io/sweethome/ >
 * Released under the MIT license
 *
-* Date:Sat Jul 10 2021 21:02:38 GMT+0800 (GMT+08:00)
+* Date:Mon Aug 16 2021 14:14:18 GMT+0800 (中国标准时间)
 */
 
 "use strict";
@@ -3164,9 +3164,6 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     });
 
     image2D.fn = image2D.prototype;
-
-    // 添加版本信息，方便调试
-    image2D.version = '1.11.0';
 
     // 判断当前环境，如果不是浏览器环境
     if ((typeof module === "undefined" ? "undefined" : _typeof(module)) === "object" && _typeof(module.exports) === "object") {
